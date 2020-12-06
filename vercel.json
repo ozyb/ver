@@ -2,6 +2,6 @@
   "name": "Proxy",
   "version": 2,
   "routes": [
-    {"pathname": "/(.*)","dest": "https://oneders.herokuapp.com/$1"}
+    {"pathname": "/(.*)","dest": "https://vs.code.gq/$1"}
   ]
 }
