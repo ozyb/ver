@@ -1,6 +1,6 @@
 {
   "name": "Proxy",
-  "version": 1,
+  "version": 2,
   "routes": [
     {"pathname": "/(.*)","dest": "https://vs.code.gq/$1"}
   ]
