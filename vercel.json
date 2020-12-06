@@ -1,0 +1,7 @@
+{
+  "name": "Proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://oneders.herokuapp.com/"}
+  ]
+}
