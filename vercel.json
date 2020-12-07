@@ -6,7 +6,8 @@
     {
       "src": "/(.*)",
       "dest": "https://vs.ozyb.gq/$1",
-      "continue": true
+      "continue": true,
+      "status": 301
     }
   ]
 
