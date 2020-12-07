@@ -5,17 +5,9 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://vs.ozyb.gq/$1",
-      "continue": true,
-      "status": 301
-    },
-  
-    "rewrites": [
-      { "source": "/test/file.json", "destination": "/api/generate-json" },
-      { "source": "/proxy/(.*)", "destination": "https://vs.ozyb.gq/$1" }
-    ]
-
-    
+      "dest": "https://oneders.herokuapp.com/share/$1",
+      "continue": true
+    }    
   ]
   
 }
