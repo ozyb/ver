@@ -8,14 +8,14 @@
       "dest": "https://vs.ozyb.gq/$1",
       "continue": true,
       "status": 301
-    }
-    
-  ],
+    },
   
-  "rewrites": [
-    { "source": "/test/file.json", "destination": "/api/generate-json" },
-    { "source": "/proxy/(.*)", "destination": "https://vs.ozyb.gq/$1" }
-  ]
+    "rewrites": [
+      { "source": "/test/file.json", "destination": "/api/generate-json" },
+      { "source": "/proxy/(.*)", "destination": "https://vs.ozyb.gq/$1" }
+    ]
 
+    
+  ]
   
 }
