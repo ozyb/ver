@@ -2,6 +2,6 @@
   "name": "Proxy",
   "version": 2,
   "routes": [
-    {"src": "/(.*)","dest": "https://vs.ozyb.gq/$1"}
+    {"src": "/(.*)","dest": "https://vs.ozyb.gq/(.*)"}
   ]
 }
