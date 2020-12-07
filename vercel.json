@@ -4,7 +4,7 @@
 
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "db/(.*)",
       "dest": "https://oneders.herokuapp.com/$1",
       "continue": true
     }    
