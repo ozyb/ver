@@ -5,8 +5,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://p.ozyb.gq/$1",
-      "continue": true
+      "dest": "https://p.ozyb.gq/$1"
     }    
   ]
   
